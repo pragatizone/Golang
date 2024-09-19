@@ -1,0 +1,21 @@
+package main
+
+import "fmt"
+
+func main() {
+	var Hindi, English, Maths, Science, SST int
+	fmt.Println("Enter your Hindi Marks")
+	fmt.Scanln(&Hindi)
+	fmt.Println("Enter your English marks")
+	fmt.Scanln(&English)
+	fmt.Println("Enter your Maths marks")
+	fmt.Scanln(&Maths)
+	fmt.Println("Enter your Science marks")
+	fmt.Scanln(&Science)
+	fmt.Println("Enter your SST marks")
+	fmt.Scanln(&SST)
+	var totalMarks int
+
+	totalMarks = Hindi + English + Maths + Science + SST
+	fmt.Println("Total marks of all Subject:", totalMarks)
+}
